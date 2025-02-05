@@ -4,7 +4,7 @@
 
 A browser extension that enhances your privacy on WhatsApp Web by blurring chat messages and other elements. Customize the blur intensity and enable unblur on hover for a personalized experience.
 
-![WhatsApp Privacy Plugin Demo](demo.gif) <!-- Add a demo GIF if available -->
+
 
 ---
 
