@@ -16,15 +16,15 @@ saveButton.addEventListener('click', () => {
         blurOnHover: blurOnHoverToggle.checked,
     };
 
-    // Save to Chrome storage (for extensions)
-    chrome.storage.sync.set({ settings }, () => {
+    // Save to browser storage (for extensions)
+    browser.storage.sync.set({ settings }, () => {
         alert('Settings saved successfully! Reload Whatsapp to see changes.');
         console.log('Settings saved:', settings);
     });
 });
 
 // Load saved settings
-chrome.storage.sync.get('settings', (data) => {
+browser.storage.sync.get('settings', (data) => {
     if (data.settings) {
         blurSlider.value = data.settings.blurIntensity;
         blurValueDisplay.textContent = `${data.settings.blurIntensity}px`;

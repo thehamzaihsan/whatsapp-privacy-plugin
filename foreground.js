@@ -1,6 +1,6 @@
 // Create and append style element
 const style = document.createElement('style');
-chrome.storage.sync.get('settings', (data) => {
+browser.storage.sync.get('settings', (data) => {
     const blurIntensity = data.settings?.blurIntensity || 5;
     const blurOnHover = data.settings?.blurOnHover ?? true;
     
@@ -20,8 +20,8 @@ document.head.appendChild(style);
 let applyBlurToMain = true;
 let applyBlurToChatList = true;
 
-// Load the stored settings from chrome.storage
-chrome.storage.sync.get(["applyBlurToChatList", "applyBlurToMain"], (result) => {
+// Load the stored settings from browser.storage
+browser.storage.sync.get(["applyBlurToChatList", "applyBlurToMain"], (result) => {
   applyBlurToChatList = result.applyBlurToChatList ?? true;
   applyBlurToMain = result.applyBlurToMain ?? true;
 
