@@ -1,21 +1,40 @@
-MIT License
+Personal Use Only License
 
-Copyright (c) 2021 SimGus
+Copyright (c) 2023 Muhammad Hamza Ihsan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+of this software and associated documentation files (the "Software"), to use,
+modify, and reproduce the Software for personal use only, subject to the
+following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. Personal Use Only:
+   The Software, "WhatsApp Privacy Plugin," may be modified and used only for
+   personal, non-commercial purposes. You may not distribute, sublicense, or
+   otherwise make the Software available to others, whether in original or
+   modified form.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. No Redistribution:
+   You may not redistribute the Software, or any derivative works based on
+   the Software, to any third party. This includes but is not limited to
+   sharing the Software online, distributing it as part of another project,
+   or making it available for download.
+
+3. No Commercial Use:
+   The Software may not be used for any commercial purpose. This includes
+   but is not limited to selling the Software, using it in a commercial
+   product, or offering it as part of a paid service.
+
+4. Attribution:
+   If you modify the Software, you must retain all original copyright notices
+   and include the following acknowledgment in your modified version:
+   "This software is based on the work of Muhammad Hamza Ihsan, licensed under
+   the Personal Use Only License."
+
+5. No Warranty:
+   THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL
+   THE AUTHOR OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR
+   OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE,
+   ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+   OTHER DEALINGS IN THE SOFTWARE.
