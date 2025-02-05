@@ -1,6 +1,6 @@
 
 
-# WhatsApp Privacy Plugin
+# WhatsApp Privacy Extension
 
 A browser extension that enhances your privacy on WhatsApp Web by blurring chat messages and other elements. Customize the blur intensity and enable unblur on hover for a personalized experience.
 
@@ -22,7 +22,7 @@ A browser extension that enhances your privacy on WhatsApp Web by blurring chat 
 ### Step 1: Download the Extension
 1. Clone or download this repository to your local machine.
    ```bash
-   git clone https://github.com/your-username/whatsapp-privacy-plugin.git
+   git clone https://github.com/thehamzaihsan/whatsapp-privacy-plugin.git
    ```
    Alternatively, you can download the repository as a ZIP file and extract it.
 
@@ -49,17 +49,18 @@ A browser extension that enhances your privacy on WhatsApp Web by blurring chat 
 
 ## Contributing
 
-This project is open for personal use and modification only. If you'd like to contribute ideas or report issues, feel free to open an issue in the repository. Please note that redistribution or commercial use is not allowed under the [Personal Use Only License](LICENSE.txt).
+This project is open for personal use and modification only. If you'd like to contribute ideas or report issues, feel free to open an issue in the repository. Please note that redistribution or commercial use is not allowed under the [Personal Use Only License](LICENSE).
 
 ---
 
 ## License
 
-This project is licensed under the **Personal Use Only License**. See the [LICENSE.txt](LICENSE.txt) file for details.
+This project is licensed under the **Personal Use Only License**. See the [LICENSE.txt](LICENSE) file for details.
 
 ---
 
 ## Credits
 
-Made with ❤️ by [Muhammad Hamza Ihsan](https://github.com/your-username).
+Made with ❤️ by [Muhammad Hamza Ihsan](https://github.com/thehamzaihsan).
+Follow me on [Linkedin](https://linkedin.com/in/hamza-ihsan).
 
