@@ -1,0 +1,149 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #25D366;
+    color: #333;
+    width: 320px;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    transition: all 0.3s ease;
+}
+
+h3 {
+    color: #128C7E;
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+    margin-right: 12px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #e0e0e0;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #25D366;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+label {
+    display: flex;
+    align-items: center;
+    margin: 16px 0;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#saveButton, #advancedSettingsButton {
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    width: 100%;
+    margin-top: 12px;
+}
+
+#saveButton {
+    background-color: #128C7E;
+}
+
+#saveButton:hover {
+    background-color: #0E7163;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(18, 140, 126, 0.2);
+}
+
+#advancedSettingsButton {
+    background-color: #34B7F1;
+}
+
+#advancedSettingsButton:hover {
+    background-color: #0f9bd7;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(52, 183, 241, 0.2);
+}
+
+.credit {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.credit a {
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.credit a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: -2px;
+    left: 0;
+    background-color: #ffffff;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+}
+
+.credit a:hover {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+.credit a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

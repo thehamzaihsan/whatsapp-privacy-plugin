@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Privacy Plugin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3>WhatsApp Privacy Settings</h3>
+        <label>
+            <span class="switch">
+                <input type="checkbox" id="blurChatList">
+                <span class="slider"></span>
+            </span>
+            Blur Chat List
+        </label>
+        <label>
+            <span class="switch">
+                <input type="checkbox" id="blurMainChat">
+                <span class="slider"></span>
+            </span>
+            Blur Main Chat Area
+        </label>
+        <button id="advancedSettingsButton" class="secondary-button">Advanced Settings</button>
+        <button id="saveButton">Save Settings</button>
+    </div>
+    <div class="credit">Made with ❤️ by <a href="https://linkedin.com/in/hamza-ihsan" target="_blank" rel="noopener noreferrer">Hamza Ihsan</a></div>
+    <script src="popup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Privacy Plugin: Settings</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="settings.css">
+</head>
+<body>
+    <div class="container">
+        <h1>WhatsApp Privacy Plugin</h1>
+        <h2>Advanced Settings</h2>
+        
+        <div class="setting-group">
+            <h3>Blur Intensity</h3>
+           
+            <div class="setting-item">
+                <label for="mainChatBlur">Blur:</label>
+                <input type="range" id="mainChatBlur" min="0" max="10" value="5">
+                <span id="mainChatBlurValue">5px</span>
+            </div>
+        </div>
+        
+        <div class="setting-group">
+            <h3>Additional Options</h3>
+            <div class="setting-item">
+                <label class="switch">
+                    <input type="checkbox" id="blurOnHover">
+                    <span class="slider round"></span>
+                </label>
+                <span>Unblur on hover</span>
+            </div>
+          
+        </div>
+        
+        <button id="saveButton">Save Settings</button>
+    </div>
+    <div class="credit">Made with ❤️ by <a href="https://linkedin.com/in/hamza-ihsan">Hamza Ihsan</a></div>
+    <script src="settings.js"></script>
+</body>
+</html>
+
